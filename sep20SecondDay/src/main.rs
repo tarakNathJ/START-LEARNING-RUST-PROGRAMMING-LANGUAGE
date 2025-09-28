@@ -86,6 +86,7 @@ fn _reference (    data  :&mut i32)->i32{
     let chack_test= 12232;
     let test_2 = &chack_test;
     println!("your test data is : {} second test {}",&chack_test ,*test_2);
+    println!("your test data is : {} second test {}",&chack_test ,*test_2);
 
 
     return_data
